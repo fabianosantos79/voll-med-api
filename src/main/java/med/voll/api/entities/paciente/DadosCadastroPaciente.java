@@ -1,6 +1,6 @@
-package med.voll.api.paciente;
+package med.voll.api.entities.paciente;
 
-import med.voll.api.endereco.DadosEndereco;
+import med.voll.api.entities.endereco.DadosEndereco;
 
 public record DadosCadastroPaciente(
         String nome,

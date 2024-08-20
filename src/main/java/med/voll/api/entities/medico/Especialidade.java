@@ -1,4 +1,4 @@
-package med.voll.api.medico;
+package med.voll.api.entities.medico;
 
 public enum Especialidade {
     FISIOTERAPIA,
