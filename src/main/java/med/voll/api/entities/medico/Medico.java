@@ -54,6 +54,10 @@ public class Medico {
             this.endereco.atualizarInformacoes(dados.endereco());
         }
 
+        if(dados.ativo() != null){
+            this.ativo = dados.ativo();
+        }
+
     }
 
     public void excluir() {

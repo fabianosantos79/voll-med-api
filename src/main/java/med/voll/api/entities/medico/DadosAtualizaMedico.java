@@ -7,6 +7,7 @@ public record DadosAtualizaMedico(
         @NotNull
         Long id,
         String nome,
+        Boolean ativo,
         String telefone,
         DadosEndereco endereco) {
 }
