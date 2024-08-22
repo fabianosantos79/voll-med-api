@@ -14,7 +14,7 @@ import javax.naming.AuthenticationException;
 import java.nio.file.AccessDeniedException;
 
 @RestControllerAdvice
-public class TratadorDeErros {
+public class TratadorDeErros{
 
     @ExceptionHandler(EntityNotFoundException.class)
     public ResponseEntity tratarErro404() {
