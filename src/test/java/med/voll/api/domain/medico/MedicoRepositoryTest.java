@@ -12,6 +12,6 @@ import org.springframework.test.context.ActiveProfiles;
 class MedicoRepositoryTest {
 
     @Test
-    void escolherMedicoAleatorioLivreNaData() {
+    void escolherMedicoAleatorioLivreNaDataCenario1() {
     }
 }
